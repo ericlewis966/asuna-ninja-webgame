@@ -61,7 +61,7 @@ function init() {
       options: {
         appName: 'ERC721 Mint', // Your app name
         networkUrl: 'https://cloudflare-eth.com',
-        chainId: 1,
+        chainId: 56,
       },
       package: WalletLink,
       connector: async (_, options) => {
